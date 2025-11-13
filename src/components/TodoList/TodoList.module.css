@@ -1,0 +1,33 @@
+.todoList {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+}
+.todoList li {
+    height: 1rem;
+    line-height: 0.6rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.input {
+    width: 14px;
+    height: 14px;
+}
+
+.iconDelete {
+    display: inline-block;
+    background-color: #6a7282;
+    border-radius: 50%;
+    padding: 2px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    right: 0.5rem;
+}
