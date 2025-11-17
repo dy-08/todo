@@ -48,3 +48,5 @@ export default function TodoCard() {
     </div>
   );
 }
+
+const initailTodos = ['React 강의 듣기', 'PostCSS 사용해보기', '학원가기'];
